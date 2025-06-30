@@ -1,4 +1,4 @@
-# Enunciado Ampliado: Inventory Management System
+# Ex03: Inventory Management System
 
 ### Objetivo
 
@@ -12,12 +12,12 @@ Desarrollar un sistema orientado a objetos en Python para gestionar el inventari
 
 #### Atributos:
 
-- `inventory`: Diccionario que almacena `{product: cantidad}`.
+- `inventory`: Diccionario que almacena `{product: quantity}`.
 
 #### Métodos requeridos:
 
 1. `__init__(self)`
-   Inicializa el diccionario `inventario` vacío
+   Inicializa el diccionario `inventory` vacío
 
 2. `add_product(self, product, quantity)`
 
@@ -26,12 +26,12 @@ Desarrollar un sistema orientado a objetos en Python para gestionar el inventari
 
 3. `delete_product(self, product)`
 
-   - Elimina un producto del inventario si existe, usando `.pop()`.
+   - Elimina un producto del inventario si existe, usando `.pop()`
    - Si no existe, muestra un mensaje: `"Producto no encontrado para eliminar"`
 
 4. `consult_product(self, product)`
 
-   - Devuelve la cantidad usando `.get()`.
+   - Devuelve la cantidad usando `.get()`
    - Si no existe, devuelve: `"Producto no existe en el inventario"`
 
 5. `mod_quantity(self, product, new_quantity)`
