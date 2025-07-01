@@ -13,7 +13,7 @@ Escribir un programa en Python que muestre todas las combinaciones posibles de *
 2. El programa debe **preguntar al usuario** si desea que las combinaciones se muestren en:
 
    - Orden **normal** (de menor a mayor): `012, 013, 014, ..., 789`
-   - Orden **invertido** (de mayor a menor): `789, 788, ..., 012`
+   - Orden **invertido** (de mayor a menor): `789, 689, 679, ..., 012`
 
 3. El resultado debe mostrarse en pantalla, separado por comas, en una sola línea.
 
@@ -53,5 +53,5 @@ $ python print_comb.py
 
 $ python print_comb.py
 ¿Quieres ver las combinaciones en orden invertido? (s/n): s
-789, 788, 787, ..., 012
+789, 689, 679, 678, 589, 579, ..., 012
 ```
